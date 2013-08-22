@@ -1,0 +1,77 @@
+/*
+	Style.css | This design was developed by William AGAY 2011
+*/
+	
+	@font-face {
+    font-family: 'MankSansRegular';
+    src: url('font/manksans-webfont.eot');
+    src: url('font/manksans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/manksans-webfont.woff') format('woff'),
+         url('font/manksans-webfont.ttf') format('truetype'),
+         url('font/manksans-webfont.svg#MankSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+body{font-family: 'MankSansRegular', arial;margin:0;padding: 0;margin-top: -20px;background: #f1f1f1;}
+a img{border:none;}
+
+#page{width: 980px;height: 620px;margin:auto;}
+
+#top{width: 83px;height: 25px;background: url('images/top.png') no-repeat;position:fixed; top: 25px;right: 10px;color: #f1f1f1; font-weight: bold;font-size: 13px;padding-top: 4px;}
+#top span{margin-left: 35px;}
+#top:hover{opacity: 0.7;cursor: pointer;}
+
+/* 1 */
+#home{background: url('images/bg1.png');}
+#home #title{float:left;margin-top: 224px;margin-left: 50px; width: 500px;color: #f0f0f0;}
+#home #title h1{font-size: 40px;}
+#home #title h3{font-size: 20px;}
+#home nav{float:right;margin-top: 220px;margin-right: 50px;font-size: 19px;}
+#home nav ul{list-style-type:none;text-align:right;}
+#home nav ul li{margin: 5px;}
+#home nav ul li a{color: #696969;text-decoration:none;}
+#home nav ul li a:hover{color: #f0f0f0;}
+
+/* 1.5 */
+#links{background: url('images/bg1.png');width: 100%;height: 100px;}
+#links_sous{background: #f1f1f1;width: 100%;height: 100px;opacity: 0.1;}
+#links_sous_sous{margin:auto;width: 980px;height: 100px;text-align:right;}
+#links_sous_sous img{margin-top: 25px;}
+
+/* 2 */
+#about-me{width: 100%;height: 620px;}
+#about-me #photo{margin-top: 90px;float:left;}
+#about-me #text{color: #6a6a6a;float:right;margin-top: 80px;font-size: 18px;width: 550px;}
+#about-me #dernier-tweet{float:left; margin-top: 80px;margin-left: 70px;background: #dddddd;font-weight: bold;padding: 10px;-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;width: 200px;}
+#about-me #dernier-tweet a{color: #636363;text-decoration: none;}
+#about-me #dernier-tweet a:hover{color: #888888;}
+#about-me #logo_last_tweet{position:absolute;margin-top: -38px;margin-left:80px;}
+#about-me #skills{width: 231px;height: 262px;background: url('images/cercles.png');float:right;margin-top: 40px;}
+#about-me #skills table{margin-top: 100px;margin-left: 35px;}
+#about-me #skills .nom{font-weight: bold;}
+#about-me #skills #note0{width: 10px; height: 10px; background: url('images/note0.png');float:left; margin: 2px;}
+#about-me #skills #note1{width: 10px; height: 10px; background: url('images/note1.png');float:left; margin: 2px;}
+
+/* 3 */
+#portfolio{width: 100%;height: 620px;background: url('images/bg1.png');}
+#portfolio h1{padding-top: 40px;color: #f0f0f0;}
+#portfolio p{color: #afafaf;margin-top: -20px;}
+#portfolio #creation{float:left;margin:10px;box-shadow: 0 0 3px 2px #343434;width: 300px;height: 215px;}
+#portfolio #creation #legende{width: 290px;height: 40px;background: url('images/opa40.png');padding-top: 15px;padding-left: 10px;margin-top: 160px;}
+#portfolio #creation #legende b{color: #afafaf;font-size: 20px;}
+
+/* 4 */
+#contact{width: 100%;height: 620px;}
+#contact #getintouch{margin-top: 25px;float:left;}
+#contact #formulaire{float:left;margin-top: 20px;margin-left: 250px;}
+#contact input{font-size: 17px;color:#484747;padding: 8px;width: 250px;}
+#contact label{font-weight: bold;font-size: 21px;color: #7a7a7a;margin-right: 15px;margin-left:15px;}
+#contact textarea{resize:none;margin-top: 20px;margin-left:18px;}
+#contact #send{margin-left: 18px; padding: 10px;width: 100px;cursor: pointer;background: #97b44d;border: none;}
+#contact #send:active{color: #fff;}
+#contact #result{position:fixed;top: 0;background: #fff; height: 50px;width: 980px;display:none;opacity: 0.9;text-align:center;font-size: 30px;padding-top: 10px;}
+
+/* Footer */
+footer{width: 100%;height: 250px;background: url('images/bg1.png');text-align:center;color: #f0f0f0;font-weight: bold;}
+footer a{color: #888888;}
